@@ -8,7 +8,7 @@ end
 
 def roster
 grade_level_hash = {}
-  
+
 end
 
 end
