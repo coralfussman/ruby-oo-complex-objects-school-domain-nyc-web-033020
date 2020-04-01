@@ -23,6 +23,14 @@ def add_student(name,grade)
  def grade(grade)
    @roster[grade]
  end
+
+ def sort
+   sorted_hash = {}
+   @roster.sort.each do |grade, name_array|
+     sorted_hash[grade] = (name_array.sort)
+   end
+   sorted_hash
+ end
 end
 
 
