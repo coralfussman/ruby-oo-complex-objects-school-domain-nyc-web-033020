@@ -1,4 +1,7 @@
 class School
+
+  attr_accessor :brand
+
 def initialize(name)
   @name = name
 end
