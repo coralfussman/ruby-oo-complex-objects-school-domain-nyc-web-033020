@@ -7,7 +7,8 @@ def initialize(name)
 end
 
 def roster
-grade_level_hash = {}
+  
+@roster = {}
 
 end
 
