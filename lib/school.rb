@@ -14,7 +14,7 @@ end
 def add_student(name,grade)
   grade_level_hash["new_key"] = []
 grade_level_hash["new_key"] << "new_value_for_value_array"
-
+grade_level_hash
 end
 end
 
@@ -22,4 +22,3 @@ end
 
 school = School.new("Bayside High School")
 school.roster
-add_student(name,grade)
