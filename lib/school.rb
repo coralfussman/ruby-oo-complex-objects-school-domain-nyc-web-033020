@@ -11,10 +11,17 @@ grade_level_hash = {}
 
 end
 
-def add_student(name,roster)
-grade_level_hash["new_key"] = []
-grade_level_hash["new_key"] << "new_value_for_value_array"
-grade_level_hash
+def add_student(name,grade)
+  if @roster[grade]
+       @roster[grade] << student_name
+     else
+       @roster[grade] = [student_name]
+     end
+   end
+
+   def grade(grade)
+     @roster[grade]
+   end
 end
 end
 
