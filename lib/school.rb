@@ -13,7 +13,7 @@ end
 def add_student(name,grade)
     @roster[grade] = []
     @roster[grade] << student_name
-    @roster
+
      end
    end
 
@@ -27,3 +27,4 @@ end
 
 school = School.new("Bayside High School")
 school.roster
+  @roster
